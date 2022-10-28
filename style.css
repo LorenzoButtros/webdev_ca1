@@ -84,9 +84,9 @@ thead {
 
 tbody 
 {
-    /* To allow the scrolling of the table in a big window */
+    /* So we can see the scrolling of the table in a big window */
     overflow: auto;
-    height: 300px;
+    height: 250px;
 }
 
 th {
