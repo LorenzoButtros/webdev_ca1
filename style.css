@@ -13,3 +13,39 @@ table {
     border-spacing: 0;
 } 
 /* Mayer Reset */
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border-color: black;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    background-color: white;
+    /*change font*/
+}
+
+table {
+    text-align: left;
+    padding: 0px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightgray;
+}
+
+caption {
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    padding: 9px;
+    margin: 0px;
+}
+
+th {
+    padding: 7px;
+}
+
+td {
+    padding: 7px;
+}
