@@ -30,7 +30,7 @@ body {
     font-size: 0.8em;
 }
 
-table, caption, button {
+table, caption, .btn {
     box-shadow: 5px 5px 0px;
 }
 
@@ -40,7 +40,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
-    background-color: f0f0f0;
+    background-color: #f0f0f0;
     border-collapse: separate;
     border-spacing: 2px;
     border-style: solid;
@@ -95,7 +95,7 @@ th {
     padding-left: 1em;
     padding-right: 1em;
     margin: 0px;
-    background-color: f0f0f0;
+    background-color: #f0f0f0;
     width: 95px;
     border-style: solid;
     border-right-width: 2px;
@@ -117,7 +117,7 @@ thead > tr > th:last-child {
 
 tr:nth-child(odd) {
     /* Zebra striping */
-    background-color: dddddd;
+    background-color: #dddddd;
 }
 
 tr:hover {
@@ -134,7 +134,7 @@ tr:hover {
     gap: 1em;
 }
 
-button {
+button, .btn {
     font-weight: bold;
     font-size: 1.3em;
     border-style: solid;
