@@ -12,16 +12,25 @@
   <body>
     
     <table>
-      <caption>HR Department - Employees</caption>
+      <caption class="lightcoral">HR Department - Employees</caption>
       <thead>
         <tr>
-          <th>Empl_id (int)</th>
+          <th>
+            Empl_id (int)
+            <img src="images/primary.png" alt="Primary Key" class="center" width="30"></img>
+          </th>
           <th>Name (String)</th>
           <th>Date_of_birth (String)</th>
           <th>Gender (String)</th>
           <th>Date_of_hire (String)</th>
-          <th>Job_id (String)</th>
-          <th>Salary_id (String)</th>
+          <th>
+            Job_id (String)
+            <img src="images/foreign.png" alt="Foreign Key" class="center" width="30"></img>
+          </th>
+          <th>
+            Salary_id (String)
+            <img src="images/foreign.png" alt="Foreign Key" class="center" width="30"></img>
+          </th>
         </tr>
       </thead>
         <tbody>
@@ -117,6 +126,13 @@
           </tr>
       </tbody>
     </table>
+
+    <div class="buttons">
+      <button class="cyan">Job Titles</button>
+      <button class="lightgreen">Departments</button>
+      <button class="plum">Department Managers</button>
+      <button class="orange">Salaries</button>
+    </div>
 
   </body>
 
